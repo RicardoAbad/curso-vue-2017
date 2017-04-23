@@ -9,7 +9,7 @@ var vm = new Vue({
         title: 'Movues: find your tonight\'s plan',
         selectedMovie: {}
     },
-    mounted: function () {
+    mounted: function() {
         this.searchMovie('indiana');
     },
     methods: {
